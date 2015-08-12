@@ -1,0 +1,4 @@
+/dependency/lua/src/*.o
+/dependency/lua/src/*.dll
+/dependency/lua/src/*.a
+/dependency/lua/src/*.exe
