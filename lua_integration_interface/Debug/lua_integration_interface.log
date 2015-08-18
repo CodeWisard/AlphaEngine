@@ -1,0 +1,15 @@
+﻿Build started 8/13/2015 9:22:02 PM.
+     1>Project "C:\Users\Matheus\Documents\projects\AlphaEngine\lua_integration_interface\lua_integration_interface.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.dll" /INCREMENTAL /NOLOGO ../dependency/lua/src/liblua.a kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.lib" /MACHINE:X86 /DLL Debug\lua_integration_interface.obj
+            Creating library C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.lib and object C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.exp
+     1>lua_integration_interface.obj : error LNK2019: unresolved external symbol _lua_close referenced in function "public: __thiscall alpha_engine::lua_machine_wrapper::lua_machine::~lua_machine(void)" (??1lua_machine@lua_machine_wrapper@alpha_engine@@QAE@XZ)
+     1>lua_integration_interface.obj : error LNK2019: unresolved external symbol _luaL_loadstring referenced in function "public: __thiscall alpha_engine::lua_machine_wrapper::lua_machine::lua_machine(char const *)" (??0lua_machine@lua_machine_wrapper@alpha_engine@@QAE@PBD@Z)
+     1>lua_integration_interface.obj : error LNK2019: unresolved external symbol _luaL_newstate referenced in function "public: __thiscall alpha_engine::lua_machine_wrapper::lua_machine::lua_machine(char const *)" (??0lua_machine@lua_machine_wrapper@alpha_engine@@QAE@PBD@Z)
+     1>../dependency/lua/src/liblua.a : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Users\Matheus\Documents\projects\AlphaEngine\Debug\lua_integration_interface.dll : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\Users\Matheus\Documents\projects\AlphaEngine\lua_integration_interface\lua_integration_interface.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48
