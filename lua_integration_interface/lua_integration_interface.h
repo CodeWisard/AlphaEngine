@@ -27,8 +27,8 @@ namespace alpha_engine
             ~lua_machine();
 
         private:
-            void lua_error(lua_State *L, int err);
-            lua_State *L;
+            void lua_error(luaL_State *L, int err);
+            luaL_State *L;
         };
 
     }
